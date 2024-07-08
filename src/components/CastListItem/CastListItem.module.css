@@ -1,0 +1,18 @@
+.listItem {
+  background-color: rgba(0, 0, 0, 0.884);
+  border-radius: 5px;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
+.castName {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.castImg {
+  border-radius: 5px 5px 0 0;
+}

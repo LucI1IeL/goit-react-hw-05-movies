@@ -65,7 +65,7 @@ const MovieDetailsPage = () => {
       <Link to="reviews" className={css.link}>
         <button className={css.infoButton}>Reviews</button>
       </Link>
-      <hr />
+      <hr className={css.horizontalline} />
       <Suspense fallback={<div>Loading...</div>}>
         <Outlet />
       </Suspense>

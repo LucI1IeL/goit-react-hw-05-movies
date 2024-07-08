@@ -1,6 +1,6 @@
 /* Header.module.css */
 .header {
-  background-color: #f0f0f0;
+  background-color: rgba(0, 0, 0, 0.884);
   padding: 20px;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -14,9 +14,10 @@
 
 .link {
   text-decoration: none;
-  color: black;
+  color: rgb(238, 238, 238);
   font-weight: 700;
   font-size: 24px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .linkActive {
@@ -25,13 +26,13 @@
   text-shadow: -1px 1px black;
   font-weight: 700;
   font-size: 24px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
 .linkActive:hover {
   color: rgb(240, 0, 0);
-  text-shadow: -2px 2px 2px black;
+  text-shadow: -3px 3px 2px black;
   font-weight: 700;
   font-size: 24px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

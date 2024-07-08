@@ -2,6 +2,7 @@
 .movieDetailsContainer {
   display: flex;
   margin: 20px;
+  background-color: rgba(0, 0, 0, 0.884);
 }
 
 .image {
@@ -13,13 +14,14 @@
 .movieDetailsWrap {
   display: flex;
   flex-direction: column;
+  color: rgb(238, 238, 238);
 }
 
 .goBackButton {
   display: block;
-  margin: 0 auto;
+  margin: 0 20px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: rgb(255, 20, 20);
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -29,11 +31,33 @@
 }
 
 .goBackButton:hover {
-  background-color: #0056b3;
+  background-color: rgb(240, 0, 0);
 }
 
 .goBackLink {
   display: block;
   margin-top: 50px;
   text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.infoButton {
+  margin: 0 20px;
+  padding: 10px 20px;
+  background-color: rgb(255, 20, 20);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.infoButton:hover {
+  background-color: rgb(240, 0, 0);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
